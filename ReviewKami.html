@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>KKI</title>
+	<style type="text/css">
+		body{
+			background-color: limegreen;
+		}
+
+		table{
+			width:200px;
+			padding: 0px;                  
+			background-color: #CCFFCC;                     
+			 font-family: Arial, sans-serif;   
+		}                                                  
+                                                           
+		ul{                                                
+			list-style-type: none;                         
+			padding: 10px;                                                                                         
+		}                                                  
+                                                           
+        .Navbar li{          
+        	float: left;                                   
+                                                           
+        }                                                  
+                                                           
+        li a{                                              
+        	background-color: #99FFCC;                     
+        	color: black;                                 
+        	display: block;                                
+            text-decoration: line;                         
+            line-height: 50px;                           
+            width: 190px;                                  
+            text-align: center;                                                                                       
+        }                                                  
+                                                           
+        li>a:hover{                                        
+        	background-color: lime ;                       
+        	color: black;                  
+        }
+
+       label, input{
+       	text-align: left;
+       }
+
+       .text-jantina{
+       	display: inline-block;
+       }
+
+       .CusAlmt{
+       	margin-top: 30px;
+       }
+
+       .SilaPilih{
+       	color: grey;
+       }
+
+        .footer{
+        	background-color: beige;
+        }
+
+
+	
+	</style>
+</head>
+<body>
+	<center>
+	<table>
+		<tr>
+			<td>
+				<img src="bannerkki.jpg">
+				<center><h1><p>Kedai Kari kepala Ikan</p></h1></center>
+			</td>
+		</tr>
+		<tr>
+			<td class="Navbar">
+				<ul>
+					<li><a href="IndexKKI.html">UTAMA</li>
+					<li><a href="ReviewKami.html">TENTANG KAMI</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<br>
+				<marquee><strong><p>Sebarang Tempahan boleh hubungi kami di 011-12345677</p></strong></marquee>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<center>
+				<form>
+					<label for="CusName">Nama :</label>
+					<input type="Text" name="Nama" id="CusName">
+					<!------------------------------------------------------------Text-->
+					<br><br>
+					<p class="text-jantina">Alamat :</p>
+					<textarea id="CusAlmt" name="CusAlmt" placeholder="Enter Alamat Here"></textarea>
+					<!-------------------------------------------------------TextArea Besar-->
+					<br><br>
+					<label for="thp-Puas">Sila Pilih Tahap Kepuasan</label>
+					<select id="thp-Puas">
+						<option class="SilaPilih" disabled hidden selected>Sila Pilih</option>
+						<option >Sangat Memuaskan</option>            
+						<option >Memuaskan</option>         <!----------------Select Option-->
+						<option >Baik</option>
+						<option > Tidak Memuaskan</option>
+					</select>
+					<br><br>
+					<p class="text-jantina">jantina :</p>
+					<input style="margin-right: 43px;" type="radio" name="jantina" id="jantina">
+					<label style="text-align: left;" for="jantina">Lelaki</label>
+					<br>
+					<input type="radio" name="jantina" id="jantina">
+					<label for="jantina">Perempuan</label>
+					<br>
+					<input type="radio" name="jantina" id="jantina">
+					<label for="jantina">Walmart Bag</label>
+					<br>
+					<input type="radio" name="jantina" id="jantina">
+					<label for="jantina">Ikea Bag</label>
+						<!-------------------------------------------------------Radio-->
+					<br><br>
+					<label for="Smbt-button">Click here</label>
+					<input type="submit" name="Value" id="Smbt-button">
+					<!-------------------------------------------------------Submit Button-->
+					<br><br>
+					<p>Sila pilih</p>
+					<input type="checkbox" name="Checkbox">
+					<label for="CheckBox"> Big </label>
+					<input type="checkbox" name="Checkbox">
+					<label type="Checkbox">Small</label>
+					<!--                                                         
+				</form>
+			</center>
+			</td>
+		</tr>
+		<tr>
+			<td class="footer">
+				<center><p>@KKI</p></center>
+			</td>
+		</tr>
+	</table>
+	<br><br><br>
+</center>
+
+</body>
+</html>
